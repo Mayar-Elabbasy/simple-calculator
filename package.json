@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mayar-Elabbasy/simple-calculator/issues"
   },
-  "homepage": "https://github.com/Mayar-Elabbasy/simple-calculator#readme"
+  "homepage": "https://github.com/Mayar-Elabbasy/simple-calculator#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
