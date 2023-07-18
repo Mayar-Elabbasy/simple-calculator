@@ -1,6 +1,6 @@
 {
   "name": "@mayar-elabbasy/simple-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple calculator package that includes the main arithmetic operations packed up in one place",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -14,7 +14,7 @@
     "lint": "npx eslint .",
     "prepare": "npm run build",
     "prepublish": "npm run lint",
-    "version" : "npm run format && git add -A src"
+    "version": "npm run format && git add -A src"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "Arithmetic operations",
     "Calculator",
     "ESlint",
-    "Mathematics", 
+    "Mathematics",
     "Prettier",
     "TypeScript"
   ],
