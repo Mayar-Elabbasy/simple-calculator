@@ -2,12 +2,19 @@
   "name": "simple-calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "npx eslint ."
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "npx eslint .",
+    "prepare": "npm run build",
+    "prepublish": "npm run lint",
+    "version" : "npm run format && git add -A src"
   },
   "repository": {
     "type": "git",
