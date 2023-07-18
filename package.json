@@ -21,12 +21,12 @@
     "url": "git+https://github.com/Mayar-Elabbasy/simple-calculator.git"
   },
   "keywords": [
-    "Arithmetic operations"
+    "Arithmetic operations",
     "Calculator",
     "ESlint",
     "Mathematics", 
     "Prettier",
-    "TypeScript", 
+    "TypeScript"
   ],
   "author": "Mayar Elabbasy",
   "license": "ISC",
