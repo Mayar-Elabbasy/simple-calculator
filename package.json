@@ -1,7 +1,7 @@
 {
   "name": "@mayar-elabbasy/simple-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple calculator package that includes the main arithmetic operations packed up in one place",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
@@ -20,7 +20,14 @@
     "type": "git",
     "url": "git+https://github.com/Mayar-Elabbasy/simple-calculator.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Arithmetic operations"
+    "Calculator",
+    "ESlint",
+    "Mathematics", 
+    "Prettier",
+    "TypeScript", 
+  ],
   "author": "Mayar Elabbasy",
   "license": "ISC",
   "bugs": {
